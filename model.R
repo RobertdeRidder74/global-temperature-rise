@@ -247,7 +247,7 @@ p2 <- ggplot(temp_reduct, aes(x = T, y = R)) +
   ) +
   theme_economist(base_size = 14)
 p3 <- ggplot(temp_relaxation, aes(x = year, y = temperature, color = component)) +
-  geom_line(size = 0.7) +
+  geom_line(linewidth = 0.7) +
   scale_color_manual(values = c(
     Total_temp = "black",
     Land_surface_temp  = "red",
